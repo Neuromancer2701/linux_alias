@@ -1,6 +1,7 @@
 alias build='make clean -s && make -s'
 alias mars='gksudo /opt/cpp-mars/eclipse/eclipse &'
 alias ione='ssh root@192.168.1.3'
+alias system_95='ssh root@10.184.101.95'
 alias status='svn status | ack-grep "[MAD] "'
 alias ack='ack-grep'
 alias mkdir="mkdir -pv"
@@ -33,6 +34,7 @@ alias du='du -ch'
  
 # top is atop, just like vi is vim
 alias top='atop'
+alias eagle='gksudo /opt/eagle-7.6.0/bin/eagle &'
 
 
 
